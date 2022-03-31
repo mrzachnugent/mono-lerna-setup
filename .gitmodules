@@ -1,0 +1,3 @@
+[submodule "apps/mtl-apps"]
+	path = apps/mtl-apps
+	url = git@github.com:mrzachnugent/mtl-apps.git

@@ -6,9 +6,17 @@
 
 If you forgot the recurse-sbumodule flag, you can run `git submodule init`
 
-# Adding node_modules to add packages and apps
+# Adding node_modules to all packages and apps
 
 From the root, run `npx learna add <insert_dependency_name>`
+
+## Adding node_modules to selected packages
+
+`npx lerna add @types/lodash packages/simple-* --dev`
+
+<br/>
+
+This will add the @types/lodash package to all folders inside of packages that start with `simple-`
 
 # .gitignore
 
